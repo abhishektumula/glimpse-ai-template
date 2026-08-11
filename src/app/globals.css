@@ -4,16 +4,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: var(--color-neutral-900);
+  --secondary: var(--color-neutral-600);
 }
 
 .dark {
   --background: var(--color-black);
   --foreground: var(--color-white);
+  --primary: var(--color-neutral-100);
+  --secondary: var(--color-neutral-500);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
   --font-sans: var(--font-geist-sans);
   --font-display: var(--font-dm-sans);
   --font-inter: var(--font-inter-reg);

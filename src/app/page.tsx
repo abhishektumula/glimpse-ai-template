@@ -1,4 +1,5 @@
 import { BackgroundGird } from "@/components/bg/grid";
+import { FeatureSection } from "@/components/features";
 import { HeroSection } from "@/components/hero-section";
 import { IntroSection } from "@/components/intro";
 import { MarqeeSection } from "@/components/marquee-item";
@@ -15,6 +16,8 @@ export default function Home() {
         <hr className="w-full h-px text-neutral-300 dark:text-neutral-700" />
         {/* <MarqeeSection /> */}
         <IntroSection />
+        <hr className="w-full h-px text-neutral-300 dark:text-neutral-700" />
+        <FeatureSection />
       </div>
     </div>
   );
