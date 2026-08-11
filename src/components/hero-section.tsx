@@ -34,7 +34,7 @@ export const HeroSection = () => {
           />
         </p>
         <div className="p-1 relative rounded-xl overflow-hidden group w-7xl mx-auto hidden md:block">
-          <div className="absolute -inset-full bg-[conic-gradient(transparent_0deg,var(--color-indigo-900)_90deg,var(--color-purple-600)_120deg,transparent_140deg,transparent_360deg)] animate-[spin_6s_linear_infinite]" />
+          <div className="absolute -inset-full bg-[conic-gradient(transparent_0deg,var(--color-indigo-900)_90deg,var(--color-purple-600)_120deg,transparent_140deg,transparent_360deg)] animate-[spin_12s_linear_infinite]" />
           <Image
             src="/hero-image.png"
             alt="hero image"

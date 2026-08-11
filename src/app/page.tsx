@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="w-full h-[200vh] bg-background relative">
       <NavBar />
-      <BackgroundGird className="absolute inset-0 w-full h-[180vh] mask-b-from-70%" />
+      <BackgroundGird className="absolute inset-0 w-full h-[110vh] md:h-[180vh] mask-b-from-70%" />
       {/* <div className="w-full bg-transparent h-20" /> */}
       <div className="relative z-10">
         <HeroSection />
