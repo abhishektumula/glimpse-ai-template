@@ -40,6 +40,7 @@ export const HeroSection = () => {
             alt="hero image"
             height={1080}
             width={1080}
+            loading="eager"
             className="object-cover w-full h-full bg-center overflow-hidden hidden md:block rounded-lg relative z-10"
           />
         </div>
