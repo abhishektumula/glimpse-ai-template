@@ -11,7 +11,7 @@ export const FeatureSection = () => {
           Built for clearer marketing decisions
         </h1>
         <p className="font-medium text-base md:text-md max-w-xl font-inter text-secondary">
-          See what's actually driving results, ditch the guesswork, and move on
+          See what&apos;s actually driving results, ditch the guesswork, and move on
           what matters.
         </p>
         <FeatureLayout />

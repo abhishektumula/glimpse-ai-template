@@ -16,10 +16,10 @@ export const IntroSection = () => {
           />
           {"   "}
           <ShadedIntro
-            text="isn't a numbers game"
+            text={<>isn&apos;t a numbers game</>}
             className="text-neutral-500 dark:text-neutral-500"
           />
-          , it's a results game. See your performance clearly, understand what
+            , it&apos;s a results game. See your performance clearly, understand what
           truly moves growth, and make smarter decisions.
           {"   "}
           <ShadedIntro

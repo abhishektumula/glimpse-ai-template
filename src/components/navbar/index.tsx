@@ -1,5 +1,5 @@
 "use client";
-import { useMotionValue, useMotionValueEvent, useScroll } from "motion/react";
+import { useMotionValueEvent, useScroll } from "motion/react";
 import { LayersArrowDown } from "lucide-react";
 import { useState } from "react";
 import { ThemeToggle } from "@/providers/theme-toggle";
@@ -8,7 +8,6 @@ export const NavBar = () => {
   const { scrollY } = useScroll();
 
   useMotionValueEvent(scrollY, "change", (latest) => {
-    console.log(latest);
     setScrolled(latest > 50);
   });
 

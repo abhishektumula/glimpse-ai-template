@@ -1,6 +1,5 @@
 "use client";
 import { useTheme } from "next-themes";
-import { motion } from "motion/react";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { cn } from "@/lib/util";
 import { useSyncExternalStore } from "react";
